@@ -8,7 +8,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        //new Principal();
+        //new Principal(); 
         ArrayList<Persona> p = new ArrayList<>();
         p.add(new Persona("Adrian", 23));
         p.add(new Persona("Otro mas",34));
