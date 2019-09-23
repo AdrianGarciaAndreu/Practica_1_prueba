@@ -8,7 +8,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        //new Principal(); 
+        //new Principal();
         ArrayList<Persona> p = new ArrayList<>();
         p.add(new Persona("Adrian", 23));
         p.add(new Persona("Otro mas",34));
@@ -16,7 +16,7 @@ public class Principal {
         p.add(new Alumno("Otro alguien", 19, 3 ));
 
         for(Persona x:p){
-            x.mostrar();
+            x.mostrar(); //sdfasds
         }
 
     }
