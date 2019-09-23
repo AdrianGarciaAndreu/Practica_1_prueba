@@ -13,7 +13,7 @@ public class Principal {
         p.add(new Persona("Adrian", 23));
         p.add(new Persona("Otro mas",34));
         p.add(new Profesor("Andres", 45, "IOT" ));
-        p.add(new Alumno("Alguien", 19, 3 ));
+        p.add(new Alumno("Alguien otra vez", 19, 3 ));
 
         for(Persona x:p){
             x.mostrar();
